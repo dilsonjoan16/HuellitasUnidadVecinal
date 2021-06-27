@@ -48,6 +48,11 @@ const routes = [
     name: 'Capas',
     component: () => import ('../views/Capas.vue')
   },
+  {
+    path: '/calculadora',
+    name: 'Calculadora',
+    component: () => import ('../views/Calculadora.vue')
+  }
 ]
 
 const router = new VueRouter({

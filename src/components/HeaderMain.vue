@@ -30,6 +30,18 @@
               >
               <!--<a class="nav-link text-white" href="./components/Nosotros.vue">Nosotros</a>-->
             </li>
+            <li class="nav-item">
+              <router-link to="/calculadora" class="nav-link text-white"
+                >Calculadora Ip</router-link
+              >
+              <!--<a class="nav-link text-white" href="./components/Nosotros.vue">Nosotros</a>-->
+            </li>
+            <li class="nav-item active">
+              <router-link to="/protocolo-general" class="nav-link text-white"
+                >TCP/IP<span class="sr-only">(current)</span></router-link
+              >
+              <!--<a class="nav-link text-white" href="">Inicio<span class="sr-only">(current)</span></a>-->
+            </li>
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle text-white"

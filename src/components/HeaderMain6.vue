@@ -30,12 +30,15 @@
               >
               <!--<a class="nav-link text-white" href="./components/Nosotros.vue">Nosotros</a>-->
             </li>
-                        <li class="nav-item">
+            <!--//////////// Apartado Actual
+            
+            <li class="nav-item">
               <router-link to="/calculadora" class="nav-link text-white"
                 >Calculadora Ip</router-link
-              >
+              > -->
               <!--<a class="nav-link text-white" href="./components/Nosotros.vue">Nosotros</a>-->
-            </li>
+            <!--</li>
+            /////////////// Culminacion del Apartado Actual-->
             <li class="nav-item active">
               <router-link to="/protocolo-general" class="nav-link text-white"
                 >TCP/IP<span class="sr-only">(current)</span></router-link
@@ -58,18 +61,18 @@
                 <router-link to="/acceso" class="dropdown-item"
                   >Acceso</router-link
                 >
-                <!-- <router-link to="/internet" class="dropdown-item"
+                <router-link to="/internet" class="dropdown-item"
                   >Internet</router-link
-                >-->
+                >
                 <!--<a class="dropdown-item" href="./components/Movies.vue">Mejor valoradas</a>
                             <a class="dropdown-item" href="./components/NewMovies.vue">Mejor del momento</a>-->
                 <div class="dropdown-divider"></div>
                 <router-link to="/transporte" class="dropdown-item"
                   >Transporte</router-link
                 >
-                <router-link to="/aplicacion" class="dropdown-item"
+                <!--<router-link to="/aplicacion" class="dropdown-item"
                   >Aplicacion</router-link
-                >
+                >-->
                 <!--<a class="dropdown-item" href="#">Algo mas</a>-->
               </div>
             </li>
@@ -99,15 +102,16 @@
                   class="list-group-item text-white text-justify mx-auto my-1"
                   id="titulo"
                 >
-                  Capa de Internet
+                  Calculadora Ip
                 </h1>
                 <span
                   class="list-group-item mt-3 text-white text-justify"
                   id="titulo"
                 >
                   <i>
-                    La función de la capa de acceso a red del modelo tcp/ip o
-                    capa IP es proporcionar el paquete de datos (datagrama)
+                    Se espera que esta calculadora sirva como herramienta didactica de gran alcance
+                    academico. Ayudando a cualquier estudiante que emprenda el camino al mejoramiento de sus
+                    habilidades tecnicas en materia de Redes y protocolos, como por ejemplo el Protocolo Ip.
                   </i>
                 </span>
                 <hr class="bg-white p-1" />
@@ -118,7 +122,7 @@
                   href="#list-item-1"
                 >
                   <button
-                    class="btn btn-outline-light my-2 my-sm-0 mx-auto"
+                    class="btn btn-outline-warning my-2 my-sm-0 mx-auto"
                     type="submit"
                     to="/"
                   >
@@ -136,13 +140,13 @@
 </template>
 <script>
 export default {
-  name: "HeaderMain3",
+  name: "HeaderMain6",
 };
 </script>
 <style scoped>
 /*ESTILOS DEL NAVBAR*/
 .header {
-  background: url(../assets/fondo8.jpg) no-repeat center;
+  background: url(../assets/fondo13.jpg) no-repeat center;
   background-size: cover;
   min-height: 100vh;
 }

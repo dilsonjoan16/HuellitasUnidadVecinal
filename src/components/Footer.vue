@@ -106,6 +106,9 @@
                       <router-link to="/cuestionario">Cuestionario</router-link>
                     </li>
                     <li>
+                      <router-link to="/calculadora">Calculadora Ip</router-link>
+                    </li>
+                    <li>
                       <router-link to="/protocolo-general">TCP/IP</router-link>
                     </li>
                   </ul>
@@ -191,6 +194,9 @@
                   </li>
                   <li>
                     <router-link to="/cuestionario">Cuestionario</router-link>
+                  </li>
+                  <li>
+                    <router-link to="/calculadora">Calculadora Ip</router-link>
                   </li>
                 </ul>
               </div>
