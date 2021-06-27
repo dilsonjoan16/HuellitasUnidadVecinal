@@ -309,6 +309,7 @@ export default {
         this.octeto3 = ""
         this.octeto4 = ""
         this.clasered = ""
+        this.nredes = ""
         
 
 }
@@ -343,5 +344,6 @@ export default {
     #0072ff,
     #00c6ff
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: absolute;
 }
 </style>

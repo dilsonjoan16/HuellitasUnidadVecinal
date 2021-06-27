@@ -5,7 +5,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 col-lg-4">
-            <div class="dk-footer-box-info mt-5">
+            <div class="dk-footer-box-info col-md-12 col-lg-12 col-sm-12 mt-5" id="exposicion">
               <!--<a href="index.html" class="footer-logo">
                             <img src="images/footer_logo.png" alt="footer_logo" class="img-fluid">
                         </a>-->
@@ -51,7 +51,6 @@
             </div>
             <!-- End Footer info -->
             <div class="footer-awarad">
-              <img src="images/icon/best.png" alt="" />
               <p>Plataforma didactica TCP/IP UNEFA</p>
             </div>
           </div>
@@ -241,6 +240,9 @@ export default {
 };
 </script>
 <style scoped>
+#exposicion{
+  position: relative;
+}
 #titulo {
   background: none;
 }
