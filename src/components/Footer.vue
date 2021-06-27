@@ -240,9 +240,7 @@ export default {
 };
 </script>
 <style scoped>
-#exposicion{
-  position: relative;
-}
+
 #titulo {
   background: none;
 }
