@@ -2,35 +2,27 @@
   <div id="general2" class="mx-auto my-3">
     <div class="container">
       <h1 id="list-item-1" class="mx-auto my-3">
-        Hablemos un poco del Modelo TCP/IP
+        Hablemos un poco sobre ¿Como prevenir el abandono?
       </h1>
       <div class="row">
         <div class="col-sm-12 col-md-6 col-lg-6 mx-auto my-auto">
           <p class="text-justify">
-            El modelo TCP/IP es usado para comunicaciones en redes y, como todo
-            protocolo, describe un conjunto de guías generales de operación para
-            permitir que un equipo pueda comunicarse en una red. TCP/IP provee
-            conectividad de extremo a extremo especificando cómo los datos
-            deberían ser formateados, direccionados, transmitidos, enrutados y
-            recibidos por el destinatario. Para conseguir un intercambio fiable
-            de datos entre dos equipos, se deben llevar a cabo muchos
-            procedimientos separados. El resultado es que el software de
-            comunicaciones es complejo. Con un modelo en capas o niveles resulta
-            más sencillo agrupar funciones relacionadas e implementar el
-            software modular de comunicaciones.
+            La primera acción para prevenir el abandono animal debe ir dirigida a la educación y concienciación de todos los ciudadanos, sean o no propietarios de mascotas. Estos últimos sin embargo, deben cumplir los requisitos que indicamos a continuación.
+            La información que tiene mayor calado en la sociedad corre a cargo de los medios de comunicación y asociaciones que conciencian a gran escala, pero nuestro papel no es menos importante pues nuestra posición de trato personal con el propietario o el futuro dueño de un animal de compañía nos hace protagonistas de una estrategia de primer nivel para prevenir el abandono: la formación y la información.
+            Podemos poner carteles en la clínica de los consejos antes de adquirir una mascota y recomendaciones de actuación con animales abandonados. Además podemos colaborar con asociaciones o albergues como voluntarios, colocando huchas en nuestra clínica o contribuyendo con materiales o productos sobrantes. También podemos hacer campañas publicitarias en las épocas de mayor riesgo de abandono o colgar carteles promoviendo asociaciones e incluso crear nuestra propia bolsa de adopción con un tablón de anuncios con fotos de animales en adopción y de peticiones de adopción.
           </p>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-6 mx-auto my-auto">
           <img
             src="../assets/imago1.jpg"
-            alt="Protocolo-TCP/IP"
-            class="rounded"
+            alt="abandono"
+            class="rounded w-100"
           />
         </div>
       </div>
       <hr />
       <h1 class="mx-auto my-3">
-        Caracteristicas mas resaltantes
+        Otros aspectos resaltantes
       </h1>
       <div class="row">
         <div class="col-sm 12 col-md-6 col-lg-6 mx-auto my-auto">
@@ -42,39 +34,37 @@
         </div>
         <div class="col-sm 12 col-md-6 col-lg-6 mx-auto my-auto">
           <h3>
-            Capas que conforman a este protocolo
+            Esterilizacion
           </h3>
           <p class="text-justify">
-            Las capas están jerarquizadas. Cada capa se construye sobre su
-            predecesora. El número de capas y, en cada una de ellas, sus
-            servicios y funciones son variables con cada tipo de red. Sin
-            embargo, en cualquier red, la misión de cada capa es proveer
-            servicios a las capas superiores haciéndoles transparentes el modo
-            en que esos servicios se llevan a cabo. De esta manera, cada capa
-            debe ocuparse exclusivamente de su nivel inmediatamente inferior, a
-            quien solicita servicios, y del nivel inmediatamente superior, a
-            quien devuelve resultados.
+            Desafortunadamente, muchos de los propietarios de mascotas de nuestro país aún tienen reticencias a la hora de esterilizar a sus animales. Falsas creencias como la de humanizar a nuestras mascotas pensando que la operación afectará a su comportamiento o estado de ánimo o la de que es bueno para las perras tener alguna camada, son aún causantes del nacimiento de muchos animales no deseados.
+            Además de evitar la proliferación de camadas no deseadas y abocadas al abandono o a una vida de pésima calidad, debemos informar a nuestros clientes de que la esterilización tiene ventajas para animal y propietario como la disminución de ciertas conductas molestas que acompañan al celo (vocalizaciones, marcajes, peleas, fugas, etc.) y que incrementa la sociabilización, mejora el temperamento en determinados animales y reduce la incidencia de enfermedades relacionadas con las hormonas sexuales.
+          
           </p>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-6 mx-auto my-auto">
           <h3>
-            El proceso de comunicacion del protocolo
+            Beneficios de compartir con los peluditos
           </h3>
           <p>
-            Cuando un usuario ejecuta un comando que utiliza un protocolo de
-            capa de aplicación TCP/IP, se inicia una serie de eventos. El
-            mensaje o el comando del usuario se transfiere a través de la pila
-            de protocolo TCP/IP del sistema local. A continuación , el mensaje o
-            el comando pasa por el medio de red hasta los protocolos del sistema
-            remoto. Los protocolos de cada capa del host de envío agregan
-            información a los datos originales.
+            Los habitantes de las grandes ciudades, en ocasiones, pueden percibir el entorno urbano como un medio frío y hostil debido al rápido
+desarrollo demográfico y la disminución de los espacios públicos. La
+presencia de los animales puede favorecer, en cierto modo, el acercamiento al entorno natural y fomentar el respeto por la naturaleza
+en los hombres y las mujeres que las habitan.
+Las conclusiones de diversas investigaciones realizadas por medios
+científicos de variadas disciplinas permiten concluir que la tenencia
+de animales de compañía es probablemente beneficiosa para las
+personas desde el punto de vista de la salud.
+La mayoría de los estudios realizados en Australia, Reino Unido,
+Alemania y Estados Unidos –países con amplia tradición y experiencia sobre los efectos beneficiosos que aporta la tenencia de animales de compañía– indican que las personas que conviven con animales de compañía mejoran su autoestima, reducen el estrés y ven incrementado su bienestar psicológico, entre otros beneficios.
+
           </p>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-6 mx-auto my-auto">
           <img
-            src="../assets/imago14.gif"
+            src="../assets/imago14.jpg"
             alt="comunicacion-protocolo"
-            class="rounded"
+            class="rounded w-100"
           />
         </div>
       </div>
@@ -90,28 +80,28 @@
                 <img
                   src="../assets/fondo2.jpg"
                   class="d-block w-100"
-                  alt="protocolo-tcp/ip"
+                  alt="mejormamigodelhombre"
                 />
               </div>
               <div class="carousel-item">
                 <img
                   src="../assets/imago5.jpg"
                   class="d-block w-100"
-                  alt="protocolo-tcp/ip"
+                  alt="mejormamigodelhombre"
                 />
               </div>
               <div class="carousel-item">
                 <img
-                  src="../assets/fondo5.jpg"
+                  src="../assets/fondo5.jpeg"
                   class="d-block w-100"
-                  alt="protocolo-tcp/ip"
+                  alt="mejormamigodelhombre"
                 />
               </div>
               <div class="carousel-item">
                 <img
-                  src="../assets/fondo1.png"
+                  src="../assets/fondo14.jpg"
                   class="d-block w-100"
-                  alt="protocolo-tcp/ip"
+                  alt="mejormamigodelhombre"
                 />
               </div>
             </div>
@@ -143,63 +133,50 @@
         </div>
         <div class="col-sm-12 col-md-6 col-lg-6 mx-auto my-auto">
           <h3 class="mx-auto my-4">
-            Redes Ip
+            El mejor amigo del hombre
           </h3>
           <p>
-            La internet protocol address, es decir, la dirección IP o
-            simplemente IP, se basa en el protocolo de Internet, que es, además,
-            la base del funcionamiento de Internet. Se trata de la dirección
-            inequívoca de un dispositivo (por ejemplo, de un ordenador, de un
-            servidor web o de una impresora) en una red interna o externa. Una
-            dirección IP puede referirse también a un conjunto de dispositivos,
-            como en el caso del broadcasting o del multicasting. Del mismo modo,
-            a un único ordenador pueden asignársele varias direcciones IP. Lo
-            que es seguro es que cada dirección IP de una red solo puede
-            asignarse una vez al mismo tiempo.
+            Los orígenes de la relación entre los animales y las personas se
+pierden en la antigüedad. Este vínculo comenzó cuando los
+humanos empezaron a criar y a seleccionar animales que
+empleaban para asegurar su supervivencia utilizándolos como alimento y también con fines utilitarios. Sin embargo, a lo largo de la
+civilización humana únicamente los perros y los gatos han tenido la
+libertad de entrar en nuestros hogares sin permanecer atados o
+encerrados y unidos a los humanos por lazos afectivos.
+Es necesario asegurarse
+de que el tipo de animal elegido se ajusta al tipo de vida de cada persona o familia, a sus hábitos, experiencias y expectativas depositadas. No se debe olvidar que los animales dependen totalmente de las
+personas y requieren muchos cuidados y atenciones.
           </p>
         </div>
       </div>
       <div class="row">
         <h2 class="mx-auto my-4">
-          Tipos de Ip actualmente
+          El otro lado de la moneda
         </h2>
         <div class="col-sm-12 col-md-6 col-lg-6 mx-auto my-auto">
           <h3>
-            Ipv4
+            Convivencia sin exito con los peluditos
           </h3>
           <p>
-            Actualmente, se usan sobre todo direcciones de la versión 4 del
-            protocolo de internet (abreviadas como IPv4). Están formadas por 32
-            bits, así que desde el punto de vista técnico son un código binario
-            de 32 cifras, como pudiera ser 11000000 10101000 10110010 00011111.
-            Para lidiar con esta cifra monstruosa, suele representarse como una
-            combinación de cuatro números decimales con valores entre 0 y 255
-            separados por puntos. En ese formato, nuestro ejemplo tendría la
-            siguiente forma: 192.168.178.31
+            Muchas personas disfrutan de la compañía de su perro o gato y nunca pensarían en deshacerse de su animal de compañía, considerado uno más de la familia. Sin embargo, en muchas ocasiones la convivencia entre personas y animales no siempre es un éxito y en algunos casos la relación fracasa.
+            Si la persona tiene un firme compromiso con el animal, agotará todas las opciones antes de aceptar una ruptura de la convivencia. La mayoría de los problemas de comportamiento se pueden reconducir con ayuda de un profesional.
+            No obstante, si llega el caso de no poder seguir viviendo con el animal, debemos encontrar a otra familia o persona que pueda hacerse cargo de él para que esté en las mejores condiciones posibles.
+            Puede pasar que un animal no se adapte a un hogar, pero sin embargo sí sea un perfecto compañero para otra familia o persona. Por ejemplo, se podría buscar una familia en nuestro entorno para asegurarnos que queda en buenas manos.
           </p>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-6 mx-auto my-auto">
           <h3>
-            Ipv6
+            Sensibilización contra el abandono de animales
           </h3>
           <p>
-            Las direcciones de esta versión se componen de 128 bits de modo que
-            deberían escribirse como un código binario de 128 cifras. Una cifra
-            así sería demasiado larga y poco práctica, de manera que se recurre
-            a una escritura hexadecimal que separa los 128 bits en 8 bloques de
-            16 bits separados entre ellos por dos puntos. De este modo se
-            obtiene , por ejemplo, la dirección Ipv6
-            0000:0000:0000:0000:0000:ffff:c0a8:b21f, en la cual las letras de la
-            “a” a la “f” también se refieren a cifras hexadecimales. Si omitimos
-            los ceros al principio de cada bloque y sustituimos una serie de
-            bloques consecutivos tipo 0000 por dos puntos (::), podemos
-            simplificar este formato aún más. En nuestro caso resulta entonces
-            la forma simplificada::ffff:c0a8:b21f.
+            Aunque en general la sociedad avanza hacia una mayor concienciación sobre la responsabilidad que tenemos hacia los animales de compañía y el compromiso que requiere convivir con ellos, sigue habiendo lamentablemente muchos casos de abandono.
+            En términos porcentuales son una minoría, ya que no llegan al 2% de los casos. La mayoría de las personas que viven con un perro o un gato lo hacen de forma feliz y responsable.
+            No obstante, las cifras son preocupantes y nos indican que todavía hay muchas personas que no tienen un vínculo sano con su animal, que implica una responsabilidad y un compromiso sólidos. Si no hay una reflexión previa seria, y no existe este vínculo sano, los problemas que surgen de la convivencia pueden derivar en abandono.
           </p>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-12 mx-auto my-auto">
           <img
-            src="../assets/imago15.png"
+            src="../assets/imago47.jpg"
             alt="tipos-de-ip"
             class="mx-auto my-auto w-100 rounded"
           />
@@ -208,131 +185,131 @@
       <hr />
       <div class="row">
         <h1 class="mx-auto my-4">
-          Encapsulado de datos en TCP/IP
+          ¿Como ayudar a un peludito en estado de abandono?
         </h1>
         <div class="col-sm-12 col-md-6 col-lg-6 mx-auto my-auto">
           <h3>
-            ¿Que es este proceso?
+            En un marco general
           </h3>
           <p>
-            Este proceso está relacionado con las diferentes capas del modelo
-            OSI , y consiste en dar formato a los datos y agregar la información
-            necesaria a medida que pasan por cada capa dependiendo del protocolo
-            que intervenga en ese momento en la comunicación. La información que
-            se agrega en cada capa se conoce como encabezado; estos contienen la
-            información de control para cada dispositivo de la red y aseguran el
-            envío correcto de los datos al receptor. Los encabezados reciben un
-            nombre específico en cada capa conocidos como unidades de datos de
-            protocolo (PDU):
+            Millones de animales son víctimas todos los días de maltratos, enfermedades, hambre y atropellamientos. Entonces, aunque no puedas adoptar a un nuevo amigo, ayudarle a que esté en buena condición de salud y a que encuentre un hogar ya hace la diferencia.
           </p>
-          <ol class="text-justify">
-            <li>
-              <strong>
-                Datos:
-              </strong>
-              En la capa de aplicación, presentación y sesión.
-            </li>
-            <li>
-              <strong>
-                Segmentos:
-              </strong>
-              En la capa de Transporte.
-            </li>
-            <li>
-              <strong>
-                Paquetes:
-              </strong>
-              En la capa de Red.
-            </li>
-            <li>
-              <strong>
-                Tramas:
-              </strong>
-              En la capa de Enlace de datos.
-            </li>
-            <li>
-              <strong>
-                Bits:
-              </strong>
-              En la capa Física.
-            </li>
-          </ol>
-          <ol class="mx-auto my-4">
-            <h3>
-              Paso a paso del proceso
+          <h3>
+              Entre las formas recopiladas para la ayuda de estos mismos tenemos.
             </h3>
+            <ol>
+              <hr />
+            <h4>
+              Sácalo del ambiente nocivo
+            </h4>
             <li>
-              Los datos son generados por el usuario en la capa de aplicación,
-              estos pasan a las capas de presentación y sesión donde se les da
-              el formato o representación especifica y se agrega el encabezado
-              de protocolo correspondiente a estas capas para ser enviados a la
-              capa de Transporte.
+             Acércate con cuidado y deja que el animal se acostumbre a ti. Un buen truco es ofrecerle comida o estirar tu mano para que la huelan (en el caso de los perros). Si estuvieras en una vía muy transitada, pide ayuda de un amigo o de un transeúnte para proteger al animal de los carros. En las carreteras puedes pedir ayuda a la Policía, que pueden tener equipos especiales para rescatar a los animales con mayor seguridad.
+             Antes de agarrar a un perro o gato desconocido del cuello, ten precaución: utiliza un collar o un bozal, especialmente si el animal está herido. O utiliza una manta para envolverlo y cargarlo de forma segura, evitando mordeduras.
             </li>
-          </ol>
+            <hr />
+            <h4>
+              Hogar, dulce hogar
+            </h4>
+            <li>
+              La mejor opción es llevar al animal a tu casa. La mayoría de refugios y ONGs enfrentan sobrepoblación, falta de recursos, y difícilmente podrán cuidarlo tan bien como tú. Si no pudieras quedarte con el perro o el gato, habla con tu familia y amigos. Explícales que es temporal, solo hasta encontrarle un hogar definitivo, y que pueden compartir los gastos y hasta alternar hogares para el animal.
+            </li>
+                      
+            </ol>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-6 mx-auto my-auto">
-          <ol start="2">
+          <ol start="3">
             <hr />
             <li>
-              Los datos son recibidos en la capa de transporte, esta capa divide
-              los datos en porciones más pequeñas para facilitar su transmisión.
-              A cada porción le agrega el encabezado correspondiente con la
-              información de los protocolos de capa de transporte. Cada porción
-              de datos se convierte en un segmento y es enviado a la capa de
-              red.
+              <h4>
+              Comida y cuidados simples
+            </h4>
+              Un hogar provisional no tiene que ser perfecto o espacioso. Basta tener un área de servicio o una esquina en el patio, en donde el animal pueda resguardarse del frío y del calor. Improvisa una cama con un cobertor o una sábana vieja. Lo ideal es darle alimento empacado. Si no tuvieses cómo comprarlo, puedes combinar temporalmente comidas caseras como arroz, pollo, papas o legumbres cocinadas. No utilices sal ni aceite. Para los gatos, dales carne en trozos pequeños, como pescado, pollo carne molida.
             </li>
             <hr />
             <li>
-              Los datos son recibidos en la capa de transporte, esta capa divide
-              los datos en porciones más pequeñas para facilitar su transmisión.
-              A cada porción le agrega el encabezado correspondiente con la
-              información de los protocolos de capa de transporte. Cada porción
-              de datos se convierte en un segmento y es enviado a la capa de
-              red.
+              <h4>
+              ¿Alguien perdió un animalito?
+            </h4>
+              No todo animal en la calle fue abandonado, y es especialmente notorio cuando un animal está bien entrenado, bien alimentado o con collar. Asegúrate de que no está solo perdido. Conversa con los vecinos, pregunta en los comercios cercanos y pregunta por los dueños en redes sociales o en sitios especializados en Internet.
             </li>
             <hr />
             <li>
-              La capa de enlace de datos recibe el paquete, le agrega su
-              encabezado y convertir el paquete en una trama que es enviada a la
-              capa física.
+              <h4>
+              No lo dones sin castrar
+            </h4>
+              ¿Quieres salvar a un perro o gato? Llévalo a castrar. Sacar a un animal de la calle resuelve un problema, pero la castración previene varios. El procedimiento evita que tenga futuras crías que no vayan a encontrar un hogar, y disminuye el riesgo de enfermedades.
             </li>
-            <hr />
             <li>
-              Por último la capa física recibe las tramas y las convierte en
-              bits, los cuales son enviados a través de los medios de red hacía
-              el destino.
+              <h4>
+              Ferias de adopción y ONGs
+            </h4>
+              Una buena solución es llevar al animalito a una feria de adopción o pedir ayuda de ONGs para encontrar un nuevo dueño. La mayoría de instituciones no puede quedarse con el animal, pero puedes encontrar ferias cerca de ti y pasar allí el día con el perro o el gato. Recuerda que el animal debe estar vacunado, castrado y desparasitado.
+            </li>
+            <li>
+              <h4>
+              Guardianes responsables
+            </h4>
+              No lo des en adopción a cualquier persona. Mucha gente puede ver adorable a un animal y adoptarlo por impulso, sin darse cuenta que un animal es una responsabilidad de 10 a 20 años. Si un perro ogato que ayudaste termina en un hogar donde no es bien alimentado o sufre de malos tratos, ¿de que sirve? Procura conocer a la persona, pregunta si ella tiene otros animales, consigue sus datos personales y solicita que firme un documento de responsabilidades, comprometiéndose a no abandonar y a cuidar al animal.
             </li>
           </ol>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-12 mx-auto my-4">
-          <img
-            src="../assets/imago16.jpg"
-            alt="tipos-de-ip"
-            class="mx-auto my-auto rounded"
-          />
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 mx-auto my-4">
+              <img
+                  src="../assets/imago16.jpg"
+                  class="d-block w-100"
+                  alt="mejormamigodelhombre"
+                />
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 mx-auto my-4">
+              <img
+                  src="../assets/imago50.jpg"
+                  class="d-block w-100"
+                  alt="mejormamigodelhombre"
+                />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 mx-auto my-4">
+            <img
+                  src="../assets/imago51.jpg"
+                  class="d-block w-100"
+                  alt="mejormamigodelhombre"
+                />               
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 mx-auto my-4">
+                <img
+                  src="../assets/imago52.jpg"
+                  class="d-block w-100"
+                  alt="mejormamigodelhombre"
+                />
+              </div>
+          </div>
+
         </div>
       </div>
     </div>
     <div class="row mx-auto" id="prefooter">
       <div class="col-sm-12 col-md-6 col-lg-6 mx-auto my-auto">
-        <img src="../assets/imago11.png" alt="final-protocolo" />
+        <img src="../assets/imago11.png" alt="final-protocolo" class="w-100" />
       </div>
       <div class="col-sm-12 col-md-6 col-lg-6 mx-auto my-auto">
         <p class="mx-auto my-auto">
           <i>
-            "En sintesis, TCP/IP es simplemente otro porotocolo que se encarga
-            de decidir como se envian los datos e informacion, siendo un
-            protocolo de conectividad confiable en el cual debemos referirnos a
-            donde llegara el paquete de datos o informacion, esto quiere decir
-            que ya se sabe o deberia saber con antelacion de donde a donde ira
-            dicho paquete (origen y destino)."
+            "En sintesis, en el apartado actual de Huellitas, la idea principal es dejar
+            una marca o mejor dicho una huella bien asentada, donde se genere un sentimiento
+            de amor y auxilio a estos inocentes amigos, a los mejores amigos del hombre. 
+            Durante la realizacion del proyecto comunitario, se penso en todo esto y por sobre
+            todas las cosas, en preparar a la comunidad para que esta misma pueda ser capaz de seguir
+            llevando a cabo diariamente, el plan de apoyo a estos amigos peludos."
             <br />
             <br />
             <strong>
-              Dilson Porras | @dilsonjoan16
+              Grupo E09-MD-1-2021
             </strong>
             <br />
-            Desarrollador de la plataforma TCP/IP UNEFA
+            Huellitas de la Unidad Vecinal Proyecto Comunitario
           </i>
         </p>
         <router-link to="/acceso">
@@ -340,7 +317,7 @@
             class="btn btn-outline-dark btn-md my-5 mx-auto"
             type="submit"
           >
-            Primera capa
+            Siguiente capitulo
           </button>
         </router-link>
       </div>

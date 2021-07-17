@@ -25,57 +25,27 @@
               <!--<a class="nav-link text-white" href="./components/Nosotros.vue">Nosotros</a>-->
             </li>
             <li class="nav-item">
-              <router-link to="/cuestionario" class="nav-link text-white"
-                >Cuestionario</router-link
+              <router-link to="/protocolo-general" class="nav-link text-white"
+                >Huellitas</router-link
               >
               <!--<a class="nav-link text-white" href="./components/Nosotros.vue">Nosotros</a>-->
             </li>
             <li class="nav-item">
-              <router-link to="/calculadora" class="nav-link text-white"
-                >Calculadora Ip</router-link
+              <router-link to="/acceso" class="nav-link text-white"
+                >Actividades</router-link
               >
               <!--<a class="nav-link text-white" href="./components/Nosotros.vue">Nosotros</a>-->
             </li>
-            <li class="nav-item active">
-              <router-link to="/protocolo-general" class="nav-link text-white"
-                >TCP/IP<span class="sr-only">(current)</span></router-link
+            <li class="nav-item">
+              <router-link to="/cuestionario" class="nav-link text-white"
+                >Reto Huellitas</router-link
               >
-              <!--<a class="nav-link text-white" href="">Inicio<span class="sr-only">(current)</span></a>-->
+              <!--<a class="nav-link text-white" href="./components/Nosotros.vue">Nosotros</a>-->
             </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle text-white"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Capas
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <!--<router-link to="/acceso" class="dropdown-item"
-                  >Acceso</router-link
-                >-->
-                <router-link to="/internet" class="dropdown-item"
-                  >Internet</router-link
-                >
-                <!--<a class="dropdown-item" href="./components/Movies.vue">Mejor valoradas</a>
-                            <a class="dropdown-item" href="./components/NewMovies.vue">Mejor del momento</a>-->
-                <div class="dropdown-divider"></div>
-                <router-link to="/transporte" class="dropdown-item"
-                  >Transporte</router-link
-                >
-                <router-link to="/aplicacion" class="dropdown-item"
-                  >Aplicacion</router-link
-                >
-                <!--<a class="dropdown-item" href="#">Algo mas</a>-->
-              </div>
-            </li>
+            
             <li class="nav-item">
               <a class="nav-link disabled text-white" href="#"
-                >Protocolo TCP/IP</a
+                >Huellitas Unidad Vecinal</a
               >
             </li>
           </ul>
@@ -83,7 +53,7 @@
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
                 <a class="nav-link disabled text-white" href="#"
-                  >Aplicacion Educativa TPC/IP U.N.E.F.A</a
+                  >Grupo E09-MD-1-2021</a
                 >
               </li>
             </ul>
@@ -99,18 +69,18 @@
                   class="list-group-item text-white text-justify mx-auto my-1"
                   id="titulo"
                 >
-                  Capa de Acceso
+                  Resumen de Actividades
                 </h1>
                 <span
                   class="list-group-item mt-3 text-white text-justify"
                   id="titulo"
                 >
                   <i>
-                    Especifica qué características hardware se usará para la red
-                    y como deben enrutarse los datos.
+                    A traves de un marco general se demostrara como fuente de apoyo, los momentos
+                    mas resaltantes durante toda esta aventura vivida y aprendida.
                   </i>
                 </span>
-                <hr class="bg-white p-1" />
+                
                 <!--<router-link to="/">-->
                 <a
                   id="titulo"

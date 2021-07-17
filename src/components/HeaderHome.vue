@@ -26,56 +26,26 @@
             </li>
             <li class="nav-item">
               <router-link to="/protocolo-general" class="nav-link text-white"
-                >TCP/IP</router-link
+                >Huellitas</router-link
+              >
+              <!--<a class="nav-link text-white" href="./components/Nosotros.vue">Nosotros</a>-->
+            </li>
+            <li class="nav-item">
+              <router-link to="/acceso" class="nav-link text-white"
+                >Actividades</router-link
               >
               <!--<a class="nav-link text-white" href="./components/Nosotros.vue">Nosotros</a>-->
             </li>
             <li class="nav-item">
               <router-link to="/cuestionario" class="nav-link text-white"
-                >Cuestionario</router-link
+                >Reto Huellitas</router-link
               >
               <!--<a class="nav-link text-white" href="./components/Nosotros.vue">Nosotros</a>-->
             </li>
-            <li class="nav-item">
-              <router-link to="/calculadora" class="nav-link text-white"
-                >Calculadora Ip</router-link
-              >
-              <!--<a class="nav-link text-white" href="./components/Nosotros.vue">Nosotros</a>-->
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle text-white"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Capas
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <router-link to="/acceso" class="dropdown-item"
-                  >Acceso</router-link
-                >
-                <router-link to="/internet" class="dropdown-item"
-                  >Internet</router-link
-                >
-                <!--<a class="dropdown-item" href="./components/Movies.vue">Mejor valoradas</a>
-                            <a class="dropdown-item" href="./components/NewMovies.vue">Mejor del momento</a>-->
-                <div class="dropdown-divider"></div>
-                <router-link to="/transporte" class="dropdown-item"
-                  >Transporte</router-link
-                >
-                <router-link to="/aplicacion" class="dropdown-item"
-                  >Aplicacion</router-link
-                >
-                <!--<a class="dropdown-item" href="#">Algo mas</a>-->
-              </div>
-            </li>
+            
             <li class="nav-item">
               <a class="nav-link disabled text-white" href="#"
-                >Protocolo TCP/IP</a
+                >Huellitas Unidad Vecinal</a
               >
             </li>
           </ul>
@@ -83,7 +53,7 @@
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
                 <a class="nav-link disabled text-white" href="#"
-                  >Aplicacion Educativa TPC/IP U.N.E.F.A</a
+                  >Grupo E09-MD-1-2021</a
                 >
               </li>
             </ul>
@@ -97,7 +67,7 @@
               <div class="list-group hover-zoom">
                 <router-link to="/protocolo-general">
                   <button
-                    class="btn btn-outline-warning my-2 my-sm-0"
+                    class="btn btn-outline-secondary my-2 my-sm-0"
                     type="submit"
                     to="/protocolo-general"
                   >

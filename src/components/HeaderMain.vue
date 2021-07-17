@@ -19,71 +19,41 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <router-link to="/" class="nav-link text-white"
+              <router-link to="/" class="nav-link text-danger"
                 >Inicio</router-link
               >
-              <!--<a class="nav-link text-white" href="./components/Nosotros.vue">Nosotros</a>-->
+              <!--<a class="nav-link text-danger" href="./components/Nosotros.vue">Nosotros</a>-->
             </li>
             <li class="nav-item">
-              <router-link to="/cuestionario" class="nav-link text-white"
-                >Cuestionario</router-link
+              <router-link to="protocolo-general" class="nav-link text-danger"
+                >Huellitas</router-link
               >
-              <!--<a class="nav-link text-white" href="./components/Nosotros.vue">Nosotros</a>-->
+              <!--<a class="nav-link text-danger" href="./components/Nosotros.vue">Nosotros</a>-->
             </li>
             <li class="nav-item">
-              <router-link to="/calculadora" class="nav-link text-white"
-                >Calculadora Ip</router-link
+              <router-link to="/acceso" class="nav-link text-danger"
+                >Actividades</router-link
               >
-              <!--<a class="nav-link text-white" href="./components/Nosotros.vue">Nosotros</a>-->
-            </li>
-            <li class="nav-item active">
-              <router-link to="/protocolo-general" class="nav-link text-white"
-                >TCP/IP<span class="sr-only">(current)</span></router-link
-              >
-              <!--<a class="nav-link text-white" href="">Inicio<span class="sr-only">(current)</span></a>-->
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle text-white"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Capas
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <router-link to="/acceso" class="dropdown-item"
-                  >Acceso</router-link
-                >
-                <router-link to="/internet" class="dropdown-item"
-                  >Internet</router-link
-                >
-                <!--<a class="dropdown-item" href="./components/Movies.vue">Mejor valoradas</a>
-                            <a class="dropdown-item" href="./components/NewMovies.vue">Mejor del momento</a>-->
-                <div class="dropdown-divider"></div>
-                <router-link to="/transporte" class="dropdown-item"
-                  >Transporte</router-link
-                >
-                <router-link to="/aplicacion" class="dropdown-item"
-                  >Aplicacion</router-link
-                >
-                <!--<a class="dropdown-item" href="#">Algo mas</a>-->
-              </div>
+              <!--<a class="nav-link text-danger" href="./components/Nosotros.vue">Nosotros</a>-->
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled text-white" href="#"
-                >Protocolo TCP/IP</a
+              <router-link to="/cuestionario" class="nav-link text-danger"
+                >Reto Huellitas</router-link
+              >
+              <!--<a class="nav-link text-danger" href="./components/Nosotros.vue">Nosotros</a>-->
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link disabled text-danger" href="#"
+                >Huellitas Unidad Vecinal</a
               >
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
-                <a class="nav-link disabled text-white" href="#"
-                  >Aplicacion Educativa TPC/IP U.N.E.F.A</a
+                <a class="nav-link disabled text-danger" href="#"
+                  >Grupo E09-MD-1-2021</a
                 >
               </li>
             </ul>
@@ -96,25 +66,23 @@
             <div class="col-6 mx-auto my-4">
               <div class="list-group hover-zoom mx-auto my-auto">
                 <h1
-                  class="list-group-item text-white text-justify mx-auto my-1"
+                  class="list-group-item text-danger text-justify mx-auto my-1"
                   id="titulo"
                 >
-                  El Protocolo mas usado
+                  Huellitas
                 </h1>
                 <span
-                  class="list-group-item mt-3 text-white text-justify"
+                  class="list-group-item mt-3 text-danger text-justify"
                   id="titulo"
                 >
                   <i>
-                    TCP/IP es un conjunto de protocolos que permiten la
-                    comunicación entre los ordenadores pertenecientes a una red.
-                    La sigla TCP/IP significa Protocolo de control de
-                    transmisión/Protocolo de Internet. Proviene de los nombres
-                    de dos protocolos importantes incluidos en el conjunto
-                    TCP/IP , es decir, del protocolo TCP y del protocolo IP.
+                    En este apartado se tratara sobre los beneficios en general que se dejan
+                    al ayudar a estos animales indefensos, el marco prinicipal sera teorico
+                    buscando resaltar la importancia de este proyecto debido a que su enfoque primario
+                    es el marcar de forma positiva la vida de estas inocentes criaturas.
                   </i>
                 </span>
-                <hr class="bg-white p-1" />
+                <!--<hr class="bg-white p-1" />-->
                 <!--<router-link to="/">-->
                 <a
                   id="titulo"
@@ -122,7 +90,7 @@
                   href="#list-item-1"
                 >
                   <button
-                    class="btn btn-outline-info my-2 my-sm-0 mx-auto"
+                    class="btn btn-outline-danger my-2 my-sm-0 mx-auto"
                     type="submit"
                     to="/"
                   >
