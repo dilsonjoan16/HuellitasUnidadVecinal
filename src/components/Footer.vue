@@ -10,8 +10,9 @@
                             <img src="images/footer_logo.png" alt="footer_logo" class="img-fluid">
                         </a>-->
               <p class="footer-info-text text-white">
-                Plataforma didactica para la poblacion estudiantil de la
-                U.N.E.F.A facilitando el aprendizaje del Modelo TCP/IP.
+                Plataforma didactica para la poblacion de la comunidad
+                Unidad Vecinal como apoyo del servicio comunitario otorgado
+                por el Grupo E09-MD-1-2021 perteneciente a la casa de estudios U.N.E.F.A
               </p>
               <div class="footer-social-link">
                 <h3>Nuestras Redes</h3>
@@ -51,7 +52,7 @@
             </div>
             <!-- End Footer info -->
             <div class="footer-awarad">
-              <p>Plataforma didactica TCP/IP UNEFA</p>
+              <p>Plataforma Huellitas de Unidad Vecinal</p>
             </div>
           </div>
           <!-- End Col -->
@@ -65,7 +66,7 @@
                   <!-- End contact Icon -->
                   <div class="contact-info">
                     <h3>San Cristóbal - Táchira</h3>
-                    <p>Avenida Las Pilas</p>
+                    <p>Unidad Vecinal</p>
                   </div>
                   <!-- End Contact Info -->
                 </div>
@@ -83,7 +84,7 @@
                   <!-- End contact Icon -->
                   <div class="contact-info">
                     <h3>0276-3539518</h3>
-                    <p>Contactanos</p>
+                    <p>Contactanos Casa de estudios U.N.E.F.A</p>
                   </div>
                   <!-- End Contact Info -->
                 </div>
@@ -102,31 +103,13 @@
                   <ul>
                     <li><router-link to="/">Inicio</router-link></li>
                     <li>
-                      <router-link to="/cuestionario">Cuestionario</router-link>
+                      <router-link to="/cuestionario">Reto huellitas</router-link>
                     </li>
                     <li>
-                      <router-link to="/calculadora">Calculadora Ip</router-link>
+                      <router-link to="/protocolo-general">Huellitas</router-link>
                     </li>
-                    <li>
-                      <router-link to="/protocolo-general">TCP/IP</router-link>
-                    </li>
-                  </ul>
-                  <ul>
-                    <li>
-                      <router-link to="/acceso">Capa Acceso</router-link>
-                    </li>
-                    <li>
-                      <router-link to="/internet">Capa Internet</router-link>
-                    </li>
-                    <li>
-                      <router-link to="/transporte"
-                        >Capa Transporte</router-link
-                      >
-                    </li>
-                    <li>
-                      <router-link to="/aplicacion"
-                        >Capa Aplicacion</router-link
-                      >
+                     <li>
+                      <router-link to="/acceso">Actividades</router-link>
                     </li>
                   </ul>
                 </div>
@@ -176,27 +159,22 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6">
-              <span>Copyright © 2021, All Right Reserved UNEFA</span>
+              <span>Copyright © 2021, All Right Reserved Huellitas Unidad Vecinal</span>
             </div>
             <!-- End Col -->
             <div class="col-md-6">
               <div class="copyright-menu">
                 <ul>
-                  <li>
-                    <router-link to="/">Inicio</router-link>
-                  </li>
-                  <li>
-                    <router-link to="/protocolo-general">TCP/IP</router-link>
-                  </li>
-                  <li>
-                    <router-link to="/capas">Capas</router-link>
-                  </li>
-                  <li>
-                    <router-link to="/cuestionario">Cuestionario</router-link>
-                  </li>
-                  <li>
-                    <router-link to="/calculadora">Calculadora Ip</router-link>
-                  </li>
+                  <li><router-link to="/">Inicio</router-link></li>
+                    <li>
+                      <router-link to="/cuestionario">Reto huellitas</router-link>
+                    </li>
+                    <li>
+                      <router-link to="/protocolo-general">Huellitas</router-link>
+                    </li>
+                     <li>
+                      <router-link to="/acceso">Actividades</router-link>
+                    </li>
                 </ul>
               </div>
             </div>
@@ -261,7 +239,10 @@ p {
   display: block;
   width: 115px;
   height: 3px;
-  background: #007bff;
+  background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .animate-border:after {
@@ -368,7 +349,7 @@ p {
   font-size: 24px;
   top: -15px;
   position: relative;
-  color: #007bff;
+  color: #302b63;
 }
 
 .dk-footer-box-info {
@@ -527,11 +508,11 @@ p {
   position: absolute;
   top: 0;
   right: 0;
-  padding: 12px 24px 12px 17px;
+  padding: 16px 24px 12px 17px;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
-  border: 1px solid #007bff;
-  background: #007bff;
+  border: 1px solid #302b63;
+  background: #302b63;
   color: #fff;
 }
 .dk-footer-form button:hover {

@@ -1,5 +1,5 @@
 <h1>
-Proyecto didactico para el entendimiento sencillo del protocolo de red TCP/IP
+Proyecto didactico para servir de apoyo al proyecto comunitario 2021 
 </h1>
 <hr>
 <h3>
@@ -7,7 +7,7 @@ Proyecto didactico para el entendimiento sencillo del protocolo de red TCP/IP
 </h3>
 
 ```
-Con fines didacticos se creo esta plataforma, en pro de la educacion universitaria de mi Alma Mater y cualquier otro centro estudiantil que le pueda servir.
+Con fines didacticos se creo esta plataforma, en pro de la educacion universitaria de mi Alma Mater y cualquier otro centro estudiantil que le pueda servir, incluyendo a la comunidad Unidad Vecinal, la cual fue la principal beneficiaria del apartado digital.
 ```
 
 # app-project

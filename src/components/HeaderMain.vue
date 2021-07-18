@@ -19,32 +19,32 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <router-link to="/" class="nav-link text-danger"
+              <router-link to="/" class="nav-link text-white"
                 >Inicio</router-link
               >
-              <!--<a class="nav-link text-danger" href="./components/Nosotros.vue">Nosotros</a>-->
+              <!--<a class="nav-link text-white" href="./components/Nosotros.vue">Nosotros</a>-->
             </li>
             <li class="nav-item">
-              <router-link to="protocolo-general" class="nav-link text-danger"
+              <router-link to="protocolo-general" class="nav-link text-white"
                 >Huellitas</router-link
               >
-              <!--<a class="nav-link text-danger" href="./components/Nosotros.vue">Nosotros</a>-->
+              <!--<a class="nav-link text-white" href="./components/Nosotros.vue">Nosotros</a>-->
             </li>
             <li class="nav-item">
-              <router-link to="/acceso" class="nav-link text-danger"
+              <router-link to="/acceso" class="nav-link text-white"
                 >Actividades</router-link
               >
-              <!--<a class="nav-link text-danger" href="./components/Nosotros.vue">Nosotros</a>-->
+              <!--<a class="nav-link text-white" href="./components/Nosotros.vue">Nosotros</a>-->
             </li>
             <li class="nav-item">
-              <router-link to="/cuestionario" class="nav-link text-danger"
+              <router-link to="/cuestionario" class="nav-link text-white"
                 >Reto Huellitas</router-link
               >
-              <!--<a class="nav-link text-danger" href="./components/Nosotros.vue">Nosotros</a>-->
+              <!--<a class="nav-link text-white" href="./components/Nosotros.vue">Nosotros</a>-->
             </li>
             
             <li class="nav-item">
-              <a class="nav-link disabled text-danger" href="#"
+              <a class="nav-link disabled text-white" href="#"
                 >Huellitas Unidad Vecinal</a
               >
             </li>
@@ -52,7 +52,7 @@
           <form class="form-inline my-2 my-lg-0">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
-                <a class="nav-link disabled text-danger" href="#"
+                <a class="nav-link disabled text-dark" href="#"
                   >Grupo E09-MD-1-2021</a
                 >
               </li>
@@ -66,13 +66,13 @@
             <div class="col-6 mx-auto my-4">
               <div class="list-group hover-zoom mx-auto my-auto">
                 <h1
-                  class="list-group-item text-danger text-justify mx-auto my-1"
+                  class="list-group-item text-dark text-justify mx-auto my-1"
                   id="titulo"
                 >
                   Huellitas
                 </h1>
                 <span
-                  class="list-group-item mt-3 text-danger text-justify"
+                  class="list-group-item mt-3 text-dark text-justify"
                   id="titulo"
                 >
                   <i>
@@ -90,7 +90,7 @@
                   href="#list-item-1"
                 >
                   <button
-                    class="btn btn-outline-danger my-2 my-sm-0 mx-auto"
+                    class="btn btn-outline-light my-2 my-sm-0 mx-auto"
                     type="submit"
                     to="/"
                   >
@@ -114,7 +114,7 @@ export default {
 <style scoped>
 /*ESTILOS DEL NAVBAR*/
 .header {
-  background: url(../assets/fondo4.jpg) no-repeat center;
+  background: url(../assets/fondo44.jpg) no-repeat center;
   background-size: cover;
   min-height: 100vh;
 }

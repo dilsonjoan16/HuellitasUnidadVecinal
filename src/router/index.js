@@ -18,21 +18,21 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/Acceso.vue')
   },
-  {
+  /*{
     path: '/internet',
     name: 'Internet',
     component: () => import('../views/Internet.vue')
-  },
-  {
+  },*/
+  /*{
     path: '/transporte',
     name: 'Transporte',
     component: () => import('../views/Transporte.vue')
-  },
-  {
+  },*/
+  /*{
     path: '/aplicacion',
     name: 'Aplicacion',
     component: () => import('../views/Aplicacion.vue')
-  },
+  },*/
   {
     path: '/protocolo-general',
     name: 'General',
@@ -43,16 +43,16 @@ const routes = [
     name: 'Cuestionario',
     component: () => import ('../views/Cuestionario.vue')
   },
-  {
+  /*{
     path: '/capas',
     name: 'Capas',
     component: () => import ('../views/Capas.vue')
-  },
-  {
+  },*/
+  /*{
     path: '/calculadora',
     name: 'Calculadora',
     component: () => import ('../views/Calculadora.vue')
-  }
+  }*/
 ]
 
 const router = new VueRouter({

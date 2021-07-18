@@ -19,25 +19,25 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <router-link to="/" class="nav-link text-white"
+              <router-link to="/" class="nav-link text-dark"
                 >Inicio</router-link
               >
               <!--<a class="nav-link text-white" href="./components/Nosotros.vue">Nosotros</a>-->
             </li>
             <li class="nav-item">
-              <router-link to="/protocolo-general" class="nav-link text-white"
+              <router-link to="/protocolo-general" class="nav-link text-dark"
                 >Huellitas</router-link
               >
               <!--<a class="nav-link text-white" href="./components/Nosotros.vue">Nosotros</a>-->
             </li>
             <li class="nav-item">
-              <router-link to="/acceso" class="nav-link text-white"
+              <router-link to="/acceso" class="nav-link text-dark"
                 >Actividades</router-link
               >
               <!--<a class="nav-link text-white" href="./components/Nosotros.vue">Nosotros</a>-->
             </li>
             <li class="nav-item">
-              <router-link to="/cuestionario" class="nav-link text-white"
+              <router-link to="/cuestionario" class="nav-link text-dark"
                 >Reto Huellitas</router-link
               >
               <!--<a class="nav-link text-white" href="./components/Nosotros.vue">Nosotros</a>-->
@@ -65,20 +65,12 @@
           <div class="row">
             <div class="col-6 mx-auto">
               <div class="list-group hover-zoom">
-                <div class="rounded p-3" id="fondo">
-                  <h1 class="text-warning mx-auto my-5">
+                <div class="rounded p-3">
+                  <h1 class="text-white mx-auto my-5">
                     <i>
-                      FELICIDADES LLEGASTE LEJOS!
+                      Vamos a probar tus conocimientos!
                     </i>
                   </h1>
-                  <h3>
-                    <p class="text-warning mx-auto my-1 text-justify">
-                      Ahora el ultimo paso, es un reto al conocimiento.
-                      Basandote en todo lo que aprendiste de la plataforma vamos
-                      a poner a prueba esos conceptos con un <br />
-                      <strong>RETO AL CONOCIMIENTO!</strong>
-                    </p>
-                  </h3>
                 </div>
                 <a
                   id="titulo"
@@ -86,7 +78,7 @@
                   href="#list-item-1"
                 >
                   <button
-                    class="btn btn-lg btn-outline-warning my-2 my-sm-0 mx-auto"
+                    class="btn btn-lg btn-outline-light my-2 my-sm-0 mx-auto"
                     type="submit"
                     to="/"
                   >

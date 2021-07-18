@@ -5,13 +5,13 @@
         <div class="col-sm-12 col-md-6 col-lg-6 mx-auto my-auto text-justify">
           <form
             v-on:submit.prevent="enviardato()"
-            class="row g-3 mx-auto my-5 rounded text-dark p-4"
+            class="row g-3 mx-auto my-5 rounded text-white p-4"
             id="formula"
           >
             <div class="col-sm-12 col-md-12 col-lg-12">
               <h3>
                 <label for="inputName" class="form-label" id="list-item-1"
-                  >Tu nombre crack!</label
+                  >Tu nombre por aca!</label
                 >
               </h3>
               <input
@@ -29,9 +29,7 @@
               <label for="flexRadioDefault1" class="form-label">
                 <strong>Pregunta #1</strong>
                 <br />
-                ¿Es cierto o falso que, la misión de cada capa del Protocolo
-                TCP/IP es proveer servicios a las capas superiores haciéndoles
-                transparentes el modo en que esos servicios se llevan a cabo?
+                ¿Es cierto o falso que, El mejor amigo del hombre es el Perro?
               </label>
               <div class="form-check">
                 <input
@@ -66,10 +64,8 @@
               <label for="flexRadioDefault2" class="form-label">
                 <strong>Pregunta #2</strong>
                 <br />
-                ¿Es cierto o falso que, la palabra <b>Duplex</b> Es un término
-                utilizado en telecomunicaión para definir a un sistema que es
-                capaz de manetener una comunicación bidireccional, enviando y
-                recibiendo mensajes de frma simultánea?
+                ¿Es cierto o falso que, La <strong>ivermectina </strong>posee caracteristicas desparasitantes
+                totalmente beneficiosas para estos indefensos amigos?
               </label>
               <div class="form-check">
                 <input
@@ -104,12 +100,8 @@
               <label for="flexRadioDefault3" class="form-label">
                 <strong>Pregunta #3</strong>
                 <br />
-                ¿Es cierto o falso que, cuando un equipo debe comunicarse con
-                otro, consulta la tabla de búsqueda. Si la dirección requerida
-                no se encuentra en la tabla, el protocolo ARP envía una
-                solicitud a la red, donde todos los equipos comparan esa
-                direccion con la suya y si alguno coincide con la misma responde
-                al protocolo?
+                ¿Es cierto o falso que, la busqueda de guardianes totalmente responsables a la hora de acoger
+                a uno de estos pequeños amiguitos es un tema de vital importancia?
               </label>
               <div class="form-check">
                 <input
@@ -144,9 +136,8 @@
               <label for="flexRadioDefault4" class="form-label">
                 <strong>Pregunta #4</strong>
                 <br />
-                ¿Es cierto o falso que, La función de la capa de transporte del
-                modelo tcp/ip es garantizar que los paquetes lleguen sin errores
-                y en secuencia, uno después de otro?
+                ¿Es cierto o falso que, La <strong>Esterilizacion</strong> de estos peluditos puede traer
+                beneficios a su calidad de vida y ahorrar problemas a futuro?
               </label>
               <div class="form-check">
                 <input
@@ -181,13 +172,8 @@
               <label for="flexRadioDefault5" class="form-label">
                 <strong>Pregunta #5</strong>
                 <br />
-                ¿Es cierto o falso que, la función de la
-                <b>Capa de aplicacion del protocolo TCP/IP</b>? depende de la
-                aplicación que se use, pero se podría resumir en proporcionar
-                servicios de red que proporcionan la interfaz con el sistema
-                operativo para que el usuario pueda interactuar acorde con la
-                máquina ya sea enviando correos y datos o descargando
-                información?
+                ¿Es cierto o falso que, desde tiempos inmorables el hombre establecio lazos de amistad y lealtad
+                inquebrantable con todas estas especies de animales domesticos?
               </label>
               <div class="form-check">
                 <input
@@ -219,7 +205,7 @@
             </div>
 
             <div class="col-12">
-              <button type="submit" class="btn btn-block btn-outline-dark">
+              <button type="submit" class="btn btn-block btn-outline-light">
                 Obtener resultado!
               </button>
             </div>
@@ -842,29 +828,23 @@ export default {
 <style scoped>
 #formula {
   border: outset;
-  background: #457fca; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
+  background: none;
+  /*background: #457fca; /* fallback for old browsers */
+  /*background: -webkit-linear-gradient(
     to right,
     #5691c8,
     #457fca
   ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
+  /*background: linear-gradient(
     to right,
     #5691c8,
     #457fca
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .Cuestionario2 {
-  background: #00c6ff; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #0072ff,
-    #00c6ff
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #0072ff,
-    #00c6ff
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 </style>

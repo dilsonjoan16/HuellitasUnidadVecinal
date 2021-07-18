@@ -290,7 +290,7 @@ personas y requieren muchos cuidados y atenciones.
         </div>
       </div>
     </div>
-    <div class="row mx-auto" id="prefooter">
+    <div class="row mx-auto text-white" id="prefooter">
       <div class="col-sm-12 col-md-6 col-lg-6 mx-auto my-auto">
         <img src="../assets/imago11.png" alt="final-protocolo" class="w-100" />
       </div>
@@ -314,7 +314,7 @@ personas y requieren muchos cuidados y atenciones.
         </p>
         <router-link to="/acceso">
           <button
-            class="btn btn-outline-dark btn-md my-5 mx-auto"
+            class="btn btn-outline-light btn-md my-5 mx-auto"
             type="submit"
           >
             Siguiente capitulo
@@ -335,17 +335,10 @@ export default {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 #prefooter {
-  background: #00c6ff; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #0072ff,
-    #00c6ff
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #0072ff,
-    #00c6ff
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 p {
   text-align: justify;
